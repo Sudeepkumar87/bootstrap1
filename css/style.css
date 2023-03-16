@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dev-section {
+  background: url(../image/section-4bg.svg) no-repeat center center/cover;
+  background-size: 150%;
+  padding: 50px;
+}
+.port-p-one {
+  font-size: 50px;
+  text-align: start;
+}
+.port-p-two {
+  max-width: 545px;
+  align-items: center;
+}
+.solution-img {
+  width: 500px;
+  height: 395px;
+}
+.million-hr {
+  width: 200px;
+  height: 30px;
+}
+.fund-main {
+  background: url(../image/section-7.png) no-repeat center center/cover;
+  padding: 50px;
+}
+.contact-main {
+  background: url(../image/sec-8\ bg.png) no-repeat center center/cover;
+  padding: 50px;
+}
+.innov-main {
+  background: url(../image/section-2bg.png) no-repeat center center/cover;
+}
+.auto-main-p {
+  max-width: 476px;
+}
+
+.auto-main-hr {
+  border: 5px solid #6a82f4;
+}
+.soft-main {
+  width: 500px;
+  height: 395px;
+}
+.vert-main-head {
+  font-size: 80px;
+}
+.vert-hr {
+  width: 200px;
+  height: 20px;
+  /* border-radius: 7px solid #6a82f4; */
+  background-color: #1a75ff;
+}
+.mob-main {
+  font-size: 20px;
+  max-width: 193px;
+}
+.brand-main {
+  max-width: 671px;
+}
+.footer-main {
+  background: url(../image/footerbg.png) no-repeat center center/cover;
+  padding: 10px;
+  margin-top: 1rem;
+}
+.footer-count {
+  font-size: 30px;
+}
+.footer-count-image {
+  width: 53px;
+  height: 53px;
+}
+.email-footer-image {
+  width: 18px;
+  height: 12px;
+}
+.million-main {
+  font-size: 59px;
+}
+.million-p {
+  font-size: 20px;
+}
+.million-p-one {
+  text-align: center;
+}
+
+.quest-main {
+  font-size: 100px;
+  text-align: center;
+}
+.span-cronj {
+  color: #6a82f4;
+}
+.quest-main-p {
+  color: #6a6a6a;
+  max-width: 938px;
+  margin: auto;
+}
+.ensur-main {
+  margin-top: 19rem;
+}
+.quest-main-hr {
+  width: 80px;
+  height: 10px;
+  color: #6a82f4;
+  margin: auto;
+}
+.quest-inner {
+  position: absolute;
+
+  left: 206px;
+  bottom: -318px;
+}
+.auto-width {
+  max-width: 300px;
+}
+.navbar-inner {
+  opacity: 1;
+}
+.footer-inner {
+  gap: 20px;
+  padding-bottom: 1rem;
+}
+.phone-main {
+  width: 14px;
+  height: 14px;
+}
+.data-main {
+  gap: 20px;
+  align-items: center;
+}
+.hrport-main {
+  width: 200px;
+  height: 20px;
+  color: #ffd357;
+}
+.nav-bg {
+  background: url(../image/section-1-bg.png) no-repeat center center/cover;
+  height: 100vh;
+}
+.div-blank {
+  height: 70px;
+  width: 50px;
+  color: #fff;
+}
+.blank-div {
+  display: flex;
+}
+
+/*----------------media-queries--------------------*/
+@media (max-width: 1024px) {
+  .nav-bg {
+    height: 77vh;
+  }
+  .quest-inner {
+    left: 34px;
+    bottom: -42px;
+  }
+  .vert-main-head {
+    font-size: 57px;
+  }
+  .vert-main-head {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .port-p-one {
+    font-size: 30px;
+  }
+  .quest-main {
+    font-size: 80px;
+  }
+  .quest-main-p {
+    max-width: 600px;
+    margin: auto;
+  }
+  .quest-inner {
+    left: 66px;
+    bottom: -157px;
+  }
+  .vert-main-head {
+    font-size: 45px;
+  }
+  .soft-main {
+    height: 0px;
+  }
+  .vert-main-head {
+    font-size: 28px;
+  }
+}
+@media (max-width: 425px) {
+  .quest-main {
+    font-size: 50px;
+  }
+  .quest-main-p {
+    max-width: 400px;
+  }
+  .quest-inner {
+    left: 0px;
+    bottom: -88px;
+    padding: 0rem;
+    margin: 1rem;
+  }
+  .nav-bg {
+    width: 100%;
+    height: 47vh;
+  }
+}
+@media (max-width: 425px) {
+}
